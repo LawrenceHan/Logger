@@ -10,6 +10,14 @@
 		02EF9D111FC56C2A0073B10B /* Logger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 02EF9D071FC56C2A0073B10B /* Logger.framework */; };
 		02EF9D161FC56C2A0073B10B /* LoggerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF9D151FC56C2A0073B10B /* LoggerTests.swift */; };
 		02EF9D241FC56C800073B10B /* Logger.h in Headers */ = {isa = PBXBuildFile; fileRef = 02EF9D221FC56C800073B10B /* Logger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02EF9D271FC56D320073B10B /* AES256CBC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF9D261FC56D320073B10B /* AES256CBC.swift */; };
+		02EF9D291FC56D7A0073B10B /* Base64.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF9D281FC56D7A0073B10B /* Base64.swift */; };
+		02EF9D301FC56D950073B10B /* BaseDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF9D2A1FC56D950073B10B /* BaseDestination.swift */; };
+		02EF9D321FC56D950073B10B /* SBPlatformDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF9D2C1FC56D950073B10B /* SBPlatformDestination.swift */; };
+		02EF9D331FC56D950073B10B /* Filter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF9D2D1FC56D950073B10B /* Filter.swift */; };
+		02EF9D341FC56D950073B10B /* FileDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF9D2E1FC56D950073B10B /* FileDestination.swift */; };
+		02EF9D351FC56D950073B10B /* ConsoleDestination.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF9D2F1FC56D950073B10B /* ConsoleDestination.swift */; };
+		02EF9D371FC56DC00073B10B /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02EF9D361FC56DC00073B10B /* Logger.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +37,14 @@
 		02EF9D171FC56C2A0073B10B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		02EF9D221FC56C800073B10B /* Logger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Logger.h; sourceTree = "<group>"; };
 		02EF9D231FC56C800073B10B /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		02EF9D261FC56D320073B10B /* AES256CBC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AES256CBC.swift; sourceTree = "<group>"; };
+		02EF9D281FC56D7A0073B10B /* Base64.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Base64.swift; sourceTree = "<group>"; };
+		02EF9D2A1FC56D950073B10B /* BaseDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseDestination.swift; sourceTree = "<group>"; };
+		02EF9D2C1FC56D950073B10B /* SBPlatformDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBPlatformDestination.swift; sourceTree = "<group>"; };
+		02EF9D2D1FC56D950073B10B /* Filter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Filter.swift; sourceTree = "<group>"; };
+		02EF9D2E1FC56D950073B10B /* FileDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDestination.swift; sourceTree = "<group>"; };
+		02EF9D2F1FC56D950073B10B /* ConsoleDestination.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleDestination.swift; sourceTree = "<group>"; };
+		02EF9D361FC56DC00073B10B /* Logger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +96,14 @@
 		02EF9D211FC56C800073B10B /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				02EF9D261FC56D320073B10B /* AES256CBC.swift */,
+				02EF9D281FC56D7A0073B10B /* Base64.swift */,
+				02EF9D2A1FC56D950073B10B /* BaseDestination.swift */,
+				02EF9D2F1FC56D950073B10B /* ConsoleDestination.swift */,
+				02EF9D2E1FC56D950073B10B /* FileDestination.swift */,
+				02EF9D2D1FC56D950073B10B /* Filter.swift */,
+				02EF9D2C1FC56D950073B10B /* SBPlatformDestination.swift */,
+				02EF9D361FC56DC00073B10B /* Logger.swift */,
 				02EF9D221FC56C800073B10B /* Logger.h */,
 				02EF9D231FC56C800073B10B /* Info.plist */,
 			);
@@ -148,6 +172,7 @@
 				TargetAttributes = {
 					02EF9D061FC56C2A0073B10B = {
 						CreatedOnToolsVersion = 9.1;
+						LastSwiftMigration = 0910;
 						ProvisioningStyle = Automatic;
 					};
 					02EF9D0F1FC56C2A0073B10B = {
@@ -196,6 +221,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02EF9D351FC56D950073B10B /* ConsoleDestination.swift in Sources */,
+				02EF9D331FC56D950073B10B /* Filter.swift in Sources */,
+				02EF9D321FC56D950073B10B /* SBPlatformDestination.swift in Sources */,
+				02EF9D371FC56DC00073B10B /* Logger.swift in Sources */,
+				02EF9D291FC56D7A0073B10B /* Base64.swift in Sources */,
+				02EF9D271FC56D320073B10B /* AES256CBC.swift in Sources */,
+				02EF9D341FC56D950073B10B /* FileDestination.swift in Sources */,
+				02EF9D301FC56D950073B10B /* BaseDestination.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +367,7 @@
 		02EF9D1C1FC56C2A0073B10B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -342,10 +376,12 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hanguang.framework.Logger;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -354,6 +390,7 @@
 		02EF9D1D1FC56C2A0073B10B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -362,6 +399,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.hanguang.framework.Logger;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -374,6 +412,7 @@
 		02EF9D1F1FC56C2A0073B10B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoggerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -387,6 +426,7 @@
 		02EF9D201FC56C2A0073B10B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LoggerTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
